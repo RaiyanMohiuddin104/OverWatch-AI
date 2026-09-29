@@ -1,0 +1,32 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Python environments
+venv/
+.venv/
+env/
+
+# React / Node
+node_modules/
+dist/
+build/
+
+# Spring Boot / Java
+target/
+*.class
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Secrets
+.env
+.env.*
+*.key
+*.pem
+
+# OS
+.DS_Store
+Thumbs.db

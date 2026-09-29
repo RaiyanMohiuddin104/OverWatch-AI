@@ -1,0 +1,28 @@
+{
+  "robust_z_threshold": 3.5,
+  "iqr_multiplier": 1.5,
+  "hybrid_weights": {
+    "robust_z": 0.5,
+    "isolation_forest": 0.3,
+    "iqr": 0.2
+  },
+  "score_band_normal_max": 25,
+  "score_band_warning_max": 50,
+  "feature_columns": [
+    "robust_z",
+    "z_score",
+    "relative_to_median",
+    "pct_diff_from_median",
+    "percentile_rank",
+    "iqr_distance"
+  ],
+  "if_feature_columns": [
+    "robust_z",
+    "z_score",
+    "relative_to_median",
+    "pct_diff_from_median",
+    "percentile_rank",
+    "iqr_distance"
+  ],
+  "random_state": 42
+}

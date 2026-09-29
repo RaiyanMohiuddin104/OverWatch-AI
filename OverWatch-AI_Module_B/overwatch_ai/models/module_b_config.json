@@ -1,0 +1,13 @@
+{
+  "model_name": "Linear Regression",
+  "feature_order": [
+    "Value_0h_uA",
+    "Value_24h_uA"
+  ],
+  "safety_threshold": 0.11677997230344588,
+  "historical_slope_mean": 0.027368989027777776,
+  "historical_slope_std": 0.04470549163783405,
+  "test_MAE": 2.1385195274891537,
+  "test_RMSE": 4.573729070261816,
+  "test_R2": 0.8406082282427625
+}
